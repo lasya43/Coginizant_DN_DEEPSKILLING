@@ -1,0 +1,14 @@
+<div class="profile-container" style="max-width: 800px; margin: 0 auto; padding: 2rem; background: white; border-radius: 8px;">
+  <h2>Student Profile</h2>
+  
+  <h3>Enrolled Courses</h3>
+  <ul *ngIf="enrolledCourses.length > 0; else noCourses" class="enrolled-list" style="list-style: none; padding: 0;">
+    <li *ngFor="let course of enrolledCourses" style="padding: 1rem; border-bottom: 1px solid #eee;">
+      <strong>{{ course.name }}</strong> ({{ course.code }}) - {{ course.credits }} Credits
+    </li>
+  </ul>
+  
+  <ng-template #noCourses>
+    <p>You are not enrolled in any courses.</p>
+  </ng-template>
+</div>

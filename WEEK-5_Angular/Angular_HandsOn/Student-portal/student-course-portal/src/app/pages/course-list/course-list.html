@@ -1,0 +1,23 @@
+<div class="course-list-container">
+  <h2>Available Courses</h2>
+  
+  <p *ngIf="loading$ | async">Loading courses...</p>
+  <p *ngIf="error$ | async as error" class="error-text">{{ error }}</p>
+
+  <div class="course-grid" *ngIf="!(loading$ | async)">
+    <ng-container *ngIf="(courses$ | async) as courses">
+      <ng-container *ngIf="courses.length > 0; else noCourses">
+        <div *ngFor="let c of courses; trackBy: trackByCourseId">
+          <app-course-card 
+            [course]="c"
+            appHighlight="lightblue">
+          </app-course-card>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <ng-template #noCourses>
+    <p>No courses available.</p>
+  </ng-template>
+</div>

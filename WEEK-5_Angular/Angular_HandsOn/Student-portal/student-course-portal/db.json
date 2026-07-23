@@ -1,0 +1,11 @@
+{
+  "courses": [
+    { "id": 1, "name": "Angular Basics", "code": "ANG101", "credits": 3, "gradeStatus": "passed" },
+    { "id": 2, "name": "Advanced React", "code": "REA201", "credits": 4, "gradeStatus": "pending" },
+    { "id": 3, "name": "Node.js Backend", "code": "NOD301", "credits": 3, "gradeStatus": "failed" },
+    { "id": 4, "name": "UI/UX Design", "code": "DES101", "credits": 2, "gradeStatus": "passed" },
+    { "id": 5, "name": "Cloud Deployments", "code": "CLD401", "credits": 4, "gradeStatus": "pending" }
+  ],
+  "students": [],
+  "enrollments": []
+}

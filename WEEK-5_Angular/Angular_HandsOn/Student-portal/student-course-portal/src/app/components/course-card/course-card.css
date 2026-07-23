@@ -1,0 +1,69 @@
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-left: 5px solid #0056b3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, height 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card--enrolled {
+  background-color: #f0fdf4;
+}
+
+.card--full {
+  opacity: 0.8;
+}
+
+.expanded {
+  min-height: 250px;
+}
+
+.status-badge-container {
+  margin: 0.5rem 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.badge-passed {
+  background-color: green;
+}
+
+.badge-failed {
+  background-color: red;
+}
+
+.badge-pending {
+  background-color: grey;
+}
+
+.card-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-secondary {
+  background-color: #6c757d !important;
+}
+
+.details-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #eee;
+  padding-top: 0.5rem;
+}
