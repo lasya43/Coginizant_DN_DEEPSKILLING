@@ -1,0 +1,190 @@
+# Week 6 – Git Hands-on Summary
+
+## Overview
+
+In this week, I learned and implemented the fundamental Git concepts required for source code management. The hands-ons covered Git configuration, repository creation, file tracking, `.gitignore`, branching, merging, merge conflict resolution, and synchronizing changes with a remote GitHub repository.
+
+
+# Hands-on 1 – Git Configuration and Basic Git Commands
+
+## Objective
+
+* Configure Git on the local machine.
+* Integrate Notepad++ as the default Git editor.
+* Create a local Git repository.
+* Add files to source control.
+
+## Activities Performed
+
+* Verified Git installation using the Git version command.
+* Configured the global Git username and email.
+* Verified Git configuration.
+* Created a local project named **GitDemo**.
+* Initialized the project as a Git repository.
+* Created a file named **Welcome.txt**.
+* Added the file to the staging area.
+* Committed the file to the local repository.
+* Verified the repository status and commit history.
+* Configured a remote GitHub repository for future synchronization.
+
+## Git Concepts Learned
+
+* Git installation verification
+* Git configuration
+* Repository initialization
+* Working directory
+* Staging area
+* Local repository
+* Git add
+* Git commit
+* Git status
+* Git log
+* Remote repository configuration
+
+
+
+# Hands-on 2 – Using .gitignore
+
+## Objective
+
+Learn how to ignore unnecessary files and folders from Git tracking.
+
+## Activities Performed
+
+* Created a **log** folder.
+* Created a sample log file.
+* Created a **.gitignore** file.
+* Configured Git to ignore:
+
+  * All `.log` files
+  * The entire `log` folder
+* Verified that ignored files were not tracked.
+* Added and committed the `.gitignore` file.
+
+## Git Concepts Learned
+
+* .gitignore
+* Ignoring unnecessary files
+* Preventing unwanted files from entering the repository
+* Clean repository management
+
+
+
+# Hands-on 3 – Branching and Merging
+
+## Objective
+
+Learn how Git branching works and merge feature branches into the main branch.
+
+## Activities Performed
+
+* Created a new branch named **GitNewBranch**.
+* Switched to the new branch.
+* Created **BranchFile.txt**.
+* Added content to the file.
+* Committed the changes.
+* Switched back to the **main** branch.
+* Compared differences between branches.
+* Merged **GitNewBranch** into **main**.
+* Verified commit history.
+* Deleted the merged branch.
+
+## Git Concepts Learned
+
+* Branch creation
+* Branch switching
+* Feature branch development
+* Git merge
+* Git diff
+* Commit history visualization
+* Branch deletion
+
+
+
+# Hands-on 4 – Merge Conflict Resolution
+
+## Objective
+
+Understand how Git handles merge conflicts and learn conflict resolution.
+
+## Activities Performed
+
+* Created a new branch named **GitWork**.
+* Added **hello.xml** with specific content.
+* Committed the file in the branch.
+* Switched back to the **main** branch.
+* Created another **hello.xml** with different content.
+* Committed the changes.
+* Compared branch differences.
+* Attempted to merge **GitWork** into **main**.
+* Observed a merge conflict.
+* Resolved the merge conflict manually.
+* Committed the resolved version.
+* Updated the **.gitignore** file to ignore backup files.
+* Committed the updated `.gitignore`.
+* Deleted the merged branch.
+* Verified commit history.
+
+## Git Concepts Learned
+
+* Merge conflict
+* Conflict resolution
+* Manual merge
+* Three-way merge concept
+* Merge commit
+* Repository cleanup
+
+
+
+# Hands-on 5 – Clean Up and Push to Remote Repository
+
+## Objective
+
+Learn how to synchronize the local repository with a remote GitHub repository.
+
+## Activities Performed
+
+* Verified that the local repository was clean.
+* Listed all available branches.
+* Verified the configured remote repository.
+* Understood the Git pull and Git push workflow.
+* Prepared the Week-6 project for uploading into the existing GitHub repository.
+* Learned the correct approach for pushing changes from the main project repository.
+
+## Git Concepts Learned
+
+* Remote repository
+* Git pull
+* Git push
+* Remote synchronization
+* Repository maintenance
+* Best practices for updating GitHub
+
+
+
+# Skills Acquired
+
+By completing these five hands-ons, I gained practical experience with:
+
+* Git Installation and Configuration
+* Git Repository Initialization
+* Git Status
+* Git Add
+* Git Commit
+* Git Log
+* Git Branch
+* Git Checkout
+* Git Merge
+* Git Diff
+* Merge Conflict Resolution
+* .gitignore Configuration
+* Remote Repository Management
+* Git Pull
+* Git Push
+* Branch Management
+* Repository Maintenance
+
+
+# Conclusion
+
+Successfully completed all five Git hands-ons by implementing Git configuration, repository creation, file tracking, `.gitignore`, branching, merging, merge conflict resolution, and remote repository synchronization. These exercises provided practical experience with essential Git workflows and version control practices commonly used in software development projects.
